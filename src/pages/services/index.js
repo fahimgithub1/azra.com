@@ -2,7 +2,7 @@ import Header from "@/lib/header";
 import Footer from "@/navigation-footer/footer";
 import Navigation from "@/navigation-footer/navigation";
 
-export default function AboutUs() {
+export default function Services() {
   return (
     <>
       <Header />

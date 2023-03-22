@@ -1,4 +1,5 @@
-import Header from "@/components/header";
+import Header from "@/lib/header";
+import Footer from "@/navigation-footer/footer";
 import Navigation from "@/navigation-footer/navigation";
 
 export default function Product() {
@@ -9,6 +10,8 @@ export default function Product() {
       <main>
         <Navigation />
         {/* <h1 className="text-4xl font-bold underline">Hello world!</h1> */}
+
+        <Footer />
       </main>
     </>
   );

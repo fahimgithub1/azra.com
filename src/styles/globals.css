@@ -30,7 +30,7 @@ a {
 }
 
 .container{
-  @apply max-w-7xl
+  @apply max-w-7xl m-auto
 }
 
 /* @media (prefers-color-scheme: dark) {
