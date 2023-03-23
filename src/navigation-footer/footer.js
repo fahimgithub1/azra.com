@@ -16,7 +16,7 @@ export default function Footer() {
       <footer className="flex container px-4 py-[20px] lg:py-[30px] items-center justify-between">
         <div className="w-2/6 md:w-2/12">
           <Link href="/">
-            <img src="/images.png" />
+            <img src="/azra-textiles.webp" />
           </Link>
         </div>
 
