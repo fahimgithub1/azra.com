@@ -21,7 +21,7 @@ export default function AboutUs() {
         </div>
 
         <div className="w-full md:w-3/6 flex items-center justify-center">
-          <img src="/about .jpeg" className="w-[50%] rounded-lg mb-[20px]" />
+          <img src="/about.jpeg" className="w-[50%] rounded-lg mb-[20px]" />
         </div>
       </div>
     </WrapperSection>

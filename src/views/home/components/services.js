@@ -41,7 +41,7 @@ export default function Services() {
 
         <div className="md:w-full lg:w-7/12 flex flex-wrap px-[-20px]">
           {rightData.map((item)=>(
-            <ServiceRight rightData={item} />
+            <ServiceRight key={item.id} rightData={item} />
           ))}
         </div>
       </div>
