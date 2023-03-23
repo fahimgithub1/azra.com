@@ -26,7 +26,7 @@ export default function Footer() {
               <li
                 key={item.name}
                 className={
-                  "text-gray-900 text-gray-200 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-[17px] font-semibold uppercase inline-block cursor-pointer"
+                  "text-white text-gray-200 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-[17px] font-semibold uppercase inline-block cursor-pointer"
                 }
                 aria-current={item.current ? "page" : undefined}
               >

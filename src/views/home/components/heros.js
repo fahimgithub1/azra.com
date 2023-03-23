@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import { FaEye, FaEnvelope } from "react-icons/fa";
 
 export default function Heros() {
   return (
@@ -18,14 +19,15 @@ export default function Heros() {
           href="/about_us"
           className="inline-block mr-4 p-3 text-lg font-medium bg-red-600 hover:bg-neutral-500 rounded-lg"
         >
-          More Details
+          <FaEye className="inline-block mr-1 text-[23px]" /> More Details
         </Link>
 
         <Link
           href="/contact_us"
           className="inline-block mr-4 p-3 text-lg font-medium hover:bg-gray-800 hover:text-gray-100 border-2 rounded-lg"
         >
-          Massage
+          
+         <FaEnvelope className="inline-block mr-1 text-[23px]" /> Massage
         </Link>
       </div>
     </div>

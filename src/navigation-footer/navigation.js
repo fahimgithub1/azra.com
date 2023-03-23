@@ -18,9 +18,9 @@ function classNames(...classes) {
 
 export default function Navigation() {
   return (
-    <div className="md:fixed w-full">
+    <div className="md:fixed w-full z-[10]">
       {/* <div className="bg-[#018836] text-white p-[10px]">Top nav</div> */}
-      <Disclosure as="nav" className="bg-gray-200 z-[10]">
+      <Disclosure as="nav" className="bg-gray-200">
         {({ open }) => (
           <>
             <div className="mx-auto container py-3 px-2 sm:px-6 lg:px-8">
